@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+
+<body bgcolor="pink" style="text-align: center;"></body>
+    <font face="lato" size="6">
+
+        <form action="backend.php">
+            <fieldset>
+                <legend>
+                    <h1>
+                        STUDENT REGISTRATION FORM
+                    </h1>
+                </legend>
+                <label for="name"> NAME : </label>
+
+                <div><input type="text" placeholder="Name" name="myName" id="name" style="background-color: palegreen;"></div> <br>
+
+                    <label for="myFathersname"> FATHER'S NAME: </label>
+
+                    <div> <input type="text" name="myFathersname" id="myFathersname" style="background-color: aqua;"></div> <br>
+
+                    <label for="mymothersname"> MOTHER'S NAME : </label>
+
+                    <div> <input type="text" name="mymothersname" id="mymothersname" style="background-color: lavender;"></div> <br>
+
+                    <label for="myNumber"> PHONE NO.. : </label>
+
+                    <div> <input type="text" placeholder="Number" name="myNumber" id="myNumber" style="background-color: lawngreen;"></div> <br>
+
+                    <label for="myEmail"> EMAIL: </label>
+
+                    <div> <input type="email" name="my email" placeholder="Email" id="myEmail" style="background-color:hotpink ;"></div> <br>
+
+                    <label for="Password"> Password: </label>
+
+                    <div>
+
+                        <input type="password" name="password" id="Password" style="background-color:salmon;" size="15" maxlength="30"
+                            placeholder="password">
+                    </div>
+                    <br>
+                    <label for="myGender"> GENDER: </label>
+                    <div>
+
+                        MALE: <input type="radio" name="my gender" id="myGender">
+                        FEMALE: <input type="radio" name="my gender">
+                        OTHER: <input type="radio" name="my gender">
+                    </div>
+                    <br>
+                    <label for="date"> DATE OF BIRTH: </label>
+                    <div>
+                        <input type="date" id="date" style="background-color: lightgoldenrodyellow;">
+                    </div>
+                    <br>
+                    <label for="address"> ADDRESS : </label>
+                    <div>
+                        <input type="text" placeholder="address" id="address" style="background-color: gold ;">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="Bloodgroup">BLOOD GROUP:</label>
+                        <select name="drop-down" id="Bloodgroup" style="background-color: aquamarine;">
+                            <option value="A"> A </option>
+                            <option value="A" selected> A+ </option>
+                            <option value="A"> B </option>
+                            <option value="A"> B+ </option>
+                        </select>
+                    </div>
+                    <br>
+                    <label for="hobbies">HOBBIES: </label>
+                    <div>
+                        &nbsp;
+                        Games <input type="checkbox" id="hobbies">
+                        Singing: <input type="checkbox">
+                        Dancing: <input type="checkbox">
+                        Reading: <input type="checkbox">
+                        Writing: <input type="checkbox">
+                    </div>
+                    <br>
+                    <label for="mybonus">BONUS: </label>
+                    <div>
+                        <input type="number" name="my Bonus" id="mybonus" style="background-color:tomato ;">
+                    </div>
+                    <br>
+                    <label for="myText">Write about yourself: </label>
+                    <div>
+                        <br><textarea name="myText" id="myText" style="background-color: slateblue;"cols="30" rows="10"></textarea>
+                    </div>
+                    <br>
+                    <div>
+                        <input type="submit" value="Submit Now" style="background-color: darkorange;">
+                        &nbsp;
+                        &nbsp;
+                        <input type="reset" value="Reset Now" style="background-color: red;">
+                    </div>
+
+
+            </fieldset>
+        </form>
+    </font>
+</body>
+
+</html>
